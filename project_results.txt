@@ -1,0 +1,19 @@
+PROJECT: CREDIT CARD FRAUD DETECTION
+MODEL: RANDOM FOREST CLASSIFIER
+Original Dataset Shape: (284807, 31)
+Cleaned Dataset Shape: (283726, 31)
+ROC-AUC Score: 0.9624
+
+Classification Report:
+              precision    recall  f1-score   support
+
+     Genuine       1.00      1.00      1.00     56651
+       Fraud       0.89      0.78      0.83        95
+
+    accuracy                           1.00     56746
+   macro avg       0.95      0.89      0.92     56746
+weighted avg       1.00      1.00      1.00     56746
+
+Confusion Matrix:
+[[56642     9]
+ [   21    74]]
